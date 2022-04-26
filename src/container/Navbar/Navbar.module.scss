@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .search {
+        width: 20rem;
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .avatar {
+        background-color: goldenrod;
+        cursor: pointer;
+    }
+
+    &_logout {
+        color: red;
+    }
+}

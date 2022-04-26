@@ -1,0 +1,8 @@
+.wrapper {
+    overflow: auto;
+
+    .draggable {
+        display: flex;
+        gap: 1rem;
+    }
+}

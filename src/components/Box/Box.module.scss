@@ -1,0 +1,11 @@
+.wrapper {
+    display: block;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+    padding: 1.5rem;
+    border-radius: 6px;
+
+    &--fit {
+        width: fit-content;
+    }
+}
